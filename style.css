@@ -2,3 +2,7 @@
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
 }
+
+.course {
+    max-height: 200px;
+}
