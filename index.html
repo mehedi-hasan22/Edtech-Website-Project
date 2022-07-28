@@ -191,7 +191,7 @@
 
         <!-- Explore Section Starts Here -->
         <!--Note: This Section Will be only visible At Large Device -->
-        <div class="container text-start bg-light d-none d-lg-block">
+        <section class="container text-start bg-light d-none d-lg-block">
             <div class="row">
                 <div class="col-lg-4">
                     <img src="./images/working_50.png" class="" alt="">
@@ -223,10 +223,10 @@
                     <button class="btn btn-primary">Read More...</button>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- ready to join starts -->
-        <div class="text-white bg-primary container p-4 my-5 text-center">
+        <section class="text-white bg-primary container p-4 my-5 text-center">
             <div class="row gx-5 d-flex align-items-center">
                 <div class="col text-start">
                     <div class="p-3">
@@ -267,52 +267,132 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- successful student starts -->
 
-        <div class="container overflow-hidden text-start">
-            <div class="container text-start">
-                <h2>Meet Our Successfull
-                    <br> Students
-                </h2>
-                <p>It is a long established fact that a reader will be distracted by the
-                    readable content of a page when looking at its layout</p>
+        <section>
+            <div class="container overflow-hidden text-start">
+                <div class="container text-start">
+                    <h2>Meet Our Successfull
+                        <br> Students
+                    </h2>
+                    <p>It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout</p>
+                </div>
+                <div class="row g-2 my-5">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="border bg-light">
+                            <img src="./images/student/student-1.png" class="img-fluid" alt="">
+                            <h6>Charles Benjamin</h6>
+                            <p>Senior Web Developer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="border bg-light">
+                            <img src="./images/student/student-2.png" class="img-fluid" alt="">
+                            <h6>Francis Julie</h6>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="border bg-light">
+                            <img src="./images/student/student-3.png" class="img-fluid" alt="">
+                            <h6>Peter Perker</h6>
+                            <p>React Developer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="border bg-light">
+                            <img src="./images/student/student-4.png" class="img-fluid" alt="">
+                            <h6>Meg Conie</h6>
+                            <p>Django Developer</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row g-2 my-5">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="border bg-light">
-                        <img src="./images/student/student-1.png" class="img-fluid" alt="">
-                        <h6>Charles Benjamin</h6>
-                        <p>Senior Web Developer</p>
-                    </div>
+            <div class="d-flex justify-content-center mb-5">
+                <button class="btn btn-primary">View More...</button>
+            </div>
+        </section>
+
+        <!-- FAQ starts here -->
+        <section>
+            <div class="container d-flex justify-content-center text-center">
+                <div>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>These 4 question are given by, <strong>Jhankar Mahbub</strong> Vai at Assignment Module</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="border bg-light">
-                        <img src="./images/student/student-2.png" class="img-fluid" alt="">
-                        <h6>Francis Julie</h6>
-                        <p>UI/UX Designer</p>
+            </div>
+            <div class="container mb-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the difference between Flexbox & Grid?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Answer:</strong> flexbox was designed for
+                                layout in one dimension - either a row or a column. Grid was designed for
+                                two-dimensional layout - rows, and columns at the same time.
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="border bg-light">
-                        <img src="./images/student/student-3.png" class="img-fluid" alt="">
-                        <h6>Peter Perker</h6>
-                        <p>React Developer</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between Bootstrap & Tailwind?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Answer:</strong> Both are CSS framework for make responsive website
+                                faster.Bootstarp is most popular, free, easy to use, old framwork which has no
+                                customization option hence, tailwind is a new framework in market which is customizable
+                                but most of the components are paid
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="border bg-light">
-                        <img src="./images/student/student-4.png" class="img-fluid" alt="">
-                        <h6>Meg Conie</h6>
-                        <p>Django Developer</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is CSS Box Model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Answer:</strong> The box model allows us to add
+                                a border around elements, and to define space between elements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What is a Semantic tag?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Answer:</strong> The HTML semantics refers to the tags that provide meaning to
+                                an HTML page rather than just presentation. It makes HTML more comprehensible by better
+                                defining the different sections and layout of web pages.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-            <button class="btn btn-primary">View More...</button>
-        </div>
+        </section>
     </main>
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
